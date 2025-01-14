@@ -30,6 +30,8 @@ export function TaskProvider({ children }) {
     console.log(res);
   };
 
+  
+
   return (
     <TaskContext.Provider value={{ tasks, createTask, getTasks }}>
       {children}
